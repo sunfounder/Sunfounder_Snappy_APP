@@ -1,4 +1,4 @@
-# Sunfonder snappy app
+# Sunfonder Ubuntu Snappy APP for Raspberry Pi 2 Module B
 
 The first sunfounder snappy app for Raspberry Pi 2 that Snappy Ubuntu Core installed.
 
