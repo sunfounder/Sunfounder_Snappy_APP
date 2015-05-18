@@ -12,11 +12,16 @@ SunFounder is a technology company focused on Raspberry Pi and Arduino open sour
 -----------------------------------------------------------------------
 #### Usage:
 Step 1 : Build environment for the development for Snappy APP on the Ubuntu system(PC, Version >= 14.04)
+
 	`
 	 $ sudo add-apt-repository ppa:snappy-dev/beta
+
 	 $ sudo apt-get update
+
 	 $ sudo apt-get upgrade
+
 	 $ sudo apt-get install snappy-tools bzr
+
 	`	
 
 Step 2 :
