@@ -15,13 +15,9 @@ Step 1 : Build environment for the development for Snappy APP on the Ubuntu syst
 
 	`
 	 $ sudo add-apt-repository ppa:snappy-dev/beta
-
 	 $ sudo apt-get update
-
 	 $ sudo apt-get upgrade
-
 	 $ sudo apt-get install snappy-tools bzr
-
 	`	
 
 Step 2 :
