@@ -17,10 +17,16 @@ Step 1 : Build environment for the development for Snappy APP on the Ubuntu syst
 	 $ sudo apt-get update
 	 $ sudo apt-get upgrade
 	 $ sudo apt-get install snappy-tools bzr
+	 $ sudo apt-get install gcc-arm-linux-gnueabi
 
-Step 2 :
+Step 2 : Clone our app source code from github
 
-Step 3 :
+	 $ git clone https://github.com/sunfounder/Sunfounder_Snappy_APP.git
+
+Step 3 : Compile source code and create snappy app
+
+	 $ cd Sunfounder_Snappy_APP/sunfounder/
+	 $ sudo ./create.sh
 
 Step 4 :
 
