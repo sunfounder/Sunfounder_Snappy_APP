@@ -30,7 +30,18 @@ Step 3 : Compile source code and create snappy app
 
 Wait a moment, you will get a snappy app named sunfounder_0.0.3_armhf.snap under the Sunfounder_Snappy_APP/sunfounder directory.
 
-Step 4 :
+Step 4 : Remotely copy the app you just create to a Raspberry Pi that ubuntu snappy core system installed
+
+	 $ scp sunfounder_0.0.3_armhf.snap ubuntu@192.168.0.188:/tmp(Replace "192.168.0.188 to your Raspberry pi's IP address")
+
+Step 5 : Log in Raspberry Pi by ssh
+	
+	 $ ssh ubuntu@192.168.0.188(Replace the IP address to yours)
+
+Step 6 : Install the app
+
+	 $ cd /tmp
+	 $ sudo snappy install --allow-unauthenticated sunfounder_0.0.3_armhf.snap
 
 #### Contact us:
 website: www.sunfounder.com
