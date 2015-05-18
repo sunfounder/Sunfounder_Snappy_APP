@@ -28,6 +28,8 @@ Step 3 : Compile source code and create snappy app
 	 $ cd Sunfounder_Snappy_APP/sunfounder/
 	 $ sudo ./create.sh
 
+	Wait a moment, you will get a snappy app named sunfounder_0.0.3_armhf.snap under the Sunfounder_Snappy_APP/sunfounder directory.
+
 Step 4 :
 
 #### Contact us:
