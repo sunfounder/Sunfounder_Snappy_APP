@@ -1,0 +1,80 @@
+Errors
+------
+ - lint_control_architecture_match
+	Architecture=armhf does not match manifest architecture=['armhf']
+ - security_policy_vendor_matches_framework (meta/ananlogRead.apparmor)
+	ubuntu-core != ubuntu-snappy (ubuntu-core-15.04-dev1)
+ - security_policy_vendor_matches_framework (meta/btnCtrlLed.apparmor)
+	ubuntu-core != ubuntu-snappy (ubuntu-core-15.04-dev1)
+ - security_policy_vendor_matches_framework (meta/buzzer.apparmor)
+	ubuntu-core != ubuntu-snappy (ubuntu-core-15.04-dev1)
+ - security_policy_vendor_matches_framework (meta/led.apparmor)
+	ubuntu-core != ubuntu-snappy (ubuntu-core-15.04-dev1)
+ - security_policy_vendor_matches_framework (meta/rgb.apparmor)
+	ubuntu-core != ubuntu-snappy (ubuntu-core-15.04-dev1)
+ - security_policy_version_matches_framework (meta/ananlogRead.apparmor)
+	15.04 != 1.3 (ubuntu-core-15.04-dev1)
+ - security_policy_version_matches_framework (meta/btnCtrlLed.apparmor)
+	15.04 != 1.3 (ubuntu-core-15.04-dev1)
+ - security_policy_version_matches_framework (meta/buzzer.apparmor)
+	15.04 != 1.3 (ubuntu-core-15.04-dev1)
+ - security_policy_version_matches_framework (meta/led.apparmor)
+	15.04 != 1.3 (ubuntu-core-15.04-dev1)
+ - security_policy_version_matches_framework (meta/rgb.apparmor)
+	15.04 != 1.3 (ubuntu-core-15.04-dev1)
+ - security_redflag_fields (meta/ananlogRead.apparmor)
+	found redflagged fields (needs human review): policy_vendor
+ - security_redflag_fields (meta/btnCtrlLed.apparmor)
+	found redflagged fields (needs human review): policy_vendor
+ - security_redflag_fields (meta/buzzer.apparmor)
+	found redflagged fields (needs human review): policy_vendor
+ - security_redflag_fields (meta/led.apparmor)
+	found redflagged fields (needs human review): policy_vendor
+ - security_redflag_fields (meta/rgb.apparmor)
+	found redflagged fields (needs human review): policy_vendor
+ - snappy-systemd_hook_optional_key_stop-timeout_ananlogRead.snappy-systemd
+	'stop-timeout' is not an integer
+ - snappy-systemd_hook_optional_key_stop-timeout_btnCtrlLed.snappy-systemd
+	'stop-timeout' is not an integer
+ - snappy-systemd_hook_optional_key_stop-timeout_buzzer.snappy-systemd
+	'stop-timeout' is not an integer
+ - snappy-systemd_hook_optional_key_stop-timeout_led.snappy-systemd
+	'stop-timeout' is not an integer
+ - snappy-systemd_hook_optional_key_stop-timeout_rgb.snappy-systemd
+	'stop-timeout' is not an integer
+ - snappy-systemd_hook_stop_timeout_ananlogRead.snappy-systemd
+	stop-timeout is not an integer
+ - snappy-systemd_hook_stop_timeout_btnCtrlLed.snappy-systemd
+	stop-timeout is not an integer
+ - snappy-systemd_hook_stop_timeout_buzzer.snappy-systemd
+	stop-timeout is not an integer
+ - snappy-systemd_hook_stop_timeout_led.snappy-systemd
+	stop-timeout is not an integer
+ - snappy-systemd_hook_stop_timeout_rgb.snappy-systemd
+	stop-timeout is not an integer
+Warnings
+--------
+ - lint_DEBIAN_extra_files
+	found extra files in DEBIAN/: hashes.yaml
+ - snappy-systemd_hook_unknown_key_ananlogRead.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_hook_unknown_key_btnCtrlLed.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_hook_unknown_key_buzzer.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_hook_unknown_key_led.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_hook_unknown_key_rgb.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_package_yaml_unknown_key_ananlogRead.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_package_yaml_unknown_key_btnCtrlLed.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_package_yaml_unknown_key_buzzer.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_package_yaml_unknown_key_led.snappy-systemd
+	Unknown field 'caps'
+ - snappy-systemd_package_yaml_unknown_key_rgb.snappy-systemd
+	Unknown field 'caps'
+sunfounder_0.0.3_armhf.snap: FAIL
+Generated 'sunfounder_0.0.3_armhf.snap' snap

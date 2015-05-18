@@ -1,0 +1,36 @@
+name: sunfounder
+version: 0.0.3
+vendor: Jason <robot@sunfounder.com>
+icon: meta/sunfounder.svg
+architecture: [armhf]
+services:
+ - name: led
+   start: bin/led
+   description: LED service
+   caps:
+   - networking
+   - network-service
+ - name: btnCtrlLed
+   start: bin/btnCtrlLed
+   description: contrl a led by button
+   caps:
+   - networking
+   - network-service
+ - name: rgb
+   start: bin/rgb
+   description: rgb led service
+   caps:
+   - networking
+   - network-service
+ - name: buzzer
+   start: bin/buzzer
+   description: buzzer service
+   caps:
+   - networking
+   - network-service
+ - name: ananlogRead
+   start: bin/analogRead
+   description: Read analog value by ADC0832
+   caps:
+   - networking
+   - network-service
