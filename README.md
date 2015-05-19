@@ -43,7 +43,17 @@ Step 6 : Install the app
 	 $ cd /tmp
 	 $ sudo snappy install --allow-unauthenticated sunfounder_0.0.3_armhf.snap
 
-After install the app, you can get a directory named sunfounder under /apps/,and you can enter the directory of /apps/sunfounder/0.03/bin to run the app.
+Step 7 : Check the app is installed successfully or not.
+	 $ snappy info
+After the above command, you will see [apps:sunfounder], it	means that the app is installed successfully.
+
+After install the app, you can get a directory named sunfounder under /apps/, and you can enter into the directory of /apps/sunfounder/0.03/bin to run the app.
+
+	 $ sudo ./led        [the status of led will be toggled]
+	 $ sudo ./buzzer     [the active buzzer will make sound]
+	 $ sudo ./rgb        [the rgb led will emit may colors]
+	 $ sudo ./btnCtrlLed [the status of led will be toggle when the button is pressed]
+	 $ sudo ./analogRead [read analog and print it on terminal] 
 
 ----------------------------------------------------------------------------
 #### Contact us:
