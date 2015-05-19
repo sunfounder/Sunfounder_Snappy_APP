@@ -49,7 +49,7 @@ Step 7 : Check whether the app is installed successfully or not.
 
 After the above command, you will see [apps:sunfounder], which means that the app has been installed successfully.
 
-After the app is installed, you can get a directory named sunfounder under /apps/, and you can go to the directory of /apps/sunfounder/0.03/bin to run the app.
+After the app is installed, you can get a directory named sunfounder under /apps/, and you can go to the directory of /apps/sunfounder/0.0.3/bin to run the app.
 
 	 $ sudo ./led        [the status of led will be toggled]
 	 $ sudo ./buzzer     [the active buzzer will make sound]
