@@ -43,6 +43,8 @@ Step 6 : Install the app
 	 $ cd /tmp
 	 $ sudo snappy install --allow-unauthenticated sunfounder_0.0.3_armhf.snap
 
+After install the app, you can get a directory named sunfounder under /apps/ 
+
 ----------------------------------------------------------------------------
 #### Contact us:
 website: www.sunfounder.com
