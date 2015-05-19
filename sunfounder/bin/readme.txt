@@ -1,1 +1,1 @@
-The directory includes binary file which are created by src/*
+The directory includes some binary files which are created by src/*
