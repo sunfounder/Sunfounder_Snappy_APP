@@ -44,7 +44,9 @@ Step 6 : Install the app
 	 $ sudo snappy install --allow-unauthenticated sunfounder_0.0.3_armhf.snap
 
 Step 7 : Check the app is installed successfully or not.
+
 	 $ snappy info
+
 After the above command, you will see [apps:sunfounder], it	means that the app is installed successfully.
 
 After install the app, you can get a directory named sunfounder under /apps/, and you can enter into the directory of /apps/sunfounder/0.03/bin to run the app.
