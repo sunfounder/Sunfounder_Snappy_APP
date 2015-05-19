@@ -53,7 +53,7 @@ After the app is installed, you can get a directory named sunfounder under /apps
 
 	 $ sudo ./led        [the status of led will be toggled]
 	 $ sudo ./buzzer     [the active buzzer will make sound]
-	 $ sudo ./rgb        [the rgb led will emit may colors]
+	 $ sudo ./rgb        [the rgb led will emit many colors]
 	 $ sudo ./btnCtrlLed [the status of led will be toggle when the button is pressed]
 	 $ sudo ./analogRead [read analog and print it on the terminal] 
 
