@@ -2,8 +2,8 @@
 ----------------------------------------------------------------------
 
 #### About the APP:
-This is the first ubuntu snappy app for Raspberry Pi 2 Model B. 
-You can read/write GPIO with the APP. If you want to use the APP, a Raspberry Pi 2 Model B that Ubuntu Snappy Core system installed is necessary.
+This is the first ubuntu snappy app for Raspberry Pi 2 Model B by Sunfounder. 
+You can read/write GPIO with the APP. If you want to use the APP, a Raspberry Pi 2 Model B on which the Ubuntu Snappy Core system has been installed is necessary.
 
 -----------------------------------------------------------------------
 #### About SunFounder:
@@ -11,7 +11,7 @@ SunFounder is a technology company focused on Raspberry Pi and Arduino open sour
 
 -----------------------------------------------------------------------
 #### Usage:
-Step 1 : Build environment for the development for Snappy APP on the Ubuntu system(PC, Version >= 14.04)
+Step 1 : Build the development environment for Snappy APP on the Ubuntu system(Version >= 14.04, on a PC)
 
 	 $ sudo add-apt-repository ppa:snappy-dev/beta
 	 $ sudo apt-get update
@@ -23,14 +23,14 @@ Step 2 : Clone our app source code from github
 
 	 $ git clone https://github.com/sunfounder/Sunfounder_Snappy_APP.git
 
-Step 3 : Compile source code and create snappy app
+Step 3 : Compile the source code and create a snappy app
 
 	 $ cd Sunfounder_Snappy_APP/sunfounder/
 	 $ sudo ./create.sh
 
-Wait a moment, you will get a snappy app named sunfounder_0.0.3_armhf.snap under the Sunfounder_Snappy_APP/sunfounder directory.
+Wait for a moment, and you will get a snappy app named sunfounder_0.0.3_armhf.snap under the Sunfounder_Snappy_APP/sunfounder directory.
 
-Step 4 : Remotely copy the app you just create to a Raspberry Pi that ubuntu snappy core system installed
+Step 4 : Remotely copy the app you just created to a Raspberry Pi 2 on which the  Ubuntu Snappy Core system has been installed
 
 	 $ scp sunfounder_0.0.3_armhf.snap ubuntu@192.168.0.188:/tmp (Replace "192.168.0.188 to your Raspberry pi's IP address")
 
@@ -43,19 +43,19 @@ Step 6 : Install the app
 	 $ cd /tmp
 	 $ sudo snappy install --allow-unauthenticated sunfounder_0.0.3_armhf.snap
 
-Step 7 : Check the app is installed successfully or not.
+Step 7 : Check whether the app is installed successfully or not.
 
 	 $ snappy info
 
-After the above command, you will see [apps:sunfounder], it	means that the app is installed successfully.
+After the above command, you will see [apps:sunfounder], which means that the app has been installed successfully.
 
-After install the app, you can get a directory named sunfounder under /apps/, and you can enter into the directory of /apps/sunfounder/0.03/bin to run the app.
+After the app is installed, you can get a directory named sunfounder under /apps/, and you can go to the directory of /apps/sunfounder/0.03/bin to run the app.
 
 	 $ sudo ./led        [the status of led will be toggled]
 	 $ sudo ./buzzer     [the active buzzer will make sound]
 	 $ sudo ./rgb        [the rgb led will emit may colors]
 	 $ sudo ./btnCtrlLed [the status of led will be toggle when the button is pressed]
-	 $ sudo ./analogRead [read analog and print it on terminal] 
+	 $ sudo ./analogRead [read analog and print it on the terminal] 
 
 ----------------------------------------------------------------------------
 #### Contact us:
